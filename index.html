@@ -10,7 +10,7 @@
 
 <body>
     <div class="calculator">
-        <input type="number" placeholder="type any number">
+        <input type="text" id="result" placeholder="0" disabled>
         <div class="btn">
             <button onclick="clearResult()">Clear</button>
             <button onclick="appendValue('/')">/</button>
@@ -33,8 +33,6 @@
             <button onclick="appendValue('7')">7</button>
             <button onclick="appendValue('8')">8</button>
             <button onclick="appendValue('9')">9</button>
-
-            <br>
 
             <button onclick="calculateResult()" class = "equal">=</button>
         </div>
